@@ -7,7 +7,7 @@ setup(
     author='alfateam123',
     author_email='alfateam123@gmail.com',
     packages=['cutesong'],
-    scripts=['bin/list', 'bin/details'],
+    #scripts=['scripts/list'],
     url='http://github.com/alfateam123/cutesong',
     #license='LICENSE.txt',
     description='openings.moe REST API Library',
@@ -21,5 +21,6 @@ setup(
     "Intended Audience :: Developers",
     #"Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Message Boards",
     "Topic :: Software Development :: Libraries :: Python Modules"
-    ]
+    ],
+    test_suite = "tests"
 )
