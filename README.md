@@ -1,6 +1,8 @@
 CuteSong: your Python wrapper to openings.moe
 =============================================
 
+[![Build Status](https://travis-ci.org/alfateam123/cutesong.svg?branch=master)](https://travis-ci.org/alfateam123/cutesong)
+
 ## What is that?
 
 It's a wrapper to openings.moe APIs.
